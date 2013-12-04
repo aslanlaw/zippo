@@ -7,6 +7,11 @@
         <script type="text/javascript" src="js_concert.js"></script>
 		<link href="css_concert.css" rel="stylesheet" type="text/css" />
 	</head>
-	<body>
+	<body style="background-color:black;">
+		<div class="main-bg">
+			<div class="black-overlay">
+				
+			</div>
+		</div>
 	</body>
 </html>
