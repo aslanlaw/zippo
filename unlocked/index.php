@@ -12,10 +12,10 @@
 		<div id="header_container">
 			<div id="header">
 				<div class="zippo-signin pull-right">
-					<form>
+					<form class="zippo_input">
 						<input class="input-small" type="text" required="required" name="zippo_id" placeholder="Zippo ID" />
-						<button class="btn" type="submit">Enter</button>
 					</form>
+					<a href="#"><img src="img/enter_1.png" class="enter_button" /></a>
 				</div>
 			</div>
 		</div>
@@ -53,10 +53,14 @@
 						</a>
 					</div>
 					<div class="zippo_web">
-						<p>Zippo</p>
+						<a href="#">
+						<img src="img/zippo_1.png" class="zippo_button" />
+						</a>
 					</div>
 					<div class="social_share pull-right">
-						<p>Share</p>
+						<a href="#">
+						<img src="img/share_1.png" class="share_button" />
+						</a>
 					</div>
 				</div>
 			</div>
