@@ -84,8 +84,23 @@ p{
 /* home */
 
 .main-bg {
-
+	background: #000 ;
 }
+
+.main-bg .bg_image {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: 1;
+
+	background-repeat: no-repeat;
+	background-position: center 29px;
+	-webkit-background-size: auto, cover;
+	-moz-background-size: auto, cover;
+	-o-background-size: auto, cover;
+	background-size: auto, cover;
+}
+
 /* overlay */
 
 #overlay-about {
@@ -107,11 +122,13 @@ p{
 	top: 20%;
 	left: 20%;
 	background-color: #000;
+	opacity: 1.0;
 }
 
 #content-about h1{
 	padding: 50px;
 	font-size: 30px;
+	opacity: 100%;
 }
 
 #overlay-share {
@@ -138,6 +155,7 @@ p{
 #content-share h1{
 	padding: 50px;
 	font-size: 30px;
+	opacity: 100%;
 }
 
 /* footer */
