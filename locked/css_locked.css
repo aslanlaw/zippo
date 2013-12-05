@@ -36,7 +36,7 @@ p{
 	width: 100%;
 	left: 0;
 	top: 0;
-	height: 50px;
+	height: 70px;
 	z-index: 800;
 	background-color: black;
 
@@ -47,9 +47,33 @@ p{
 }
 
 #header .zippo-signin {
-	margin-top: 15px;
-	margin-right: 20px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 25px;
+	width: 250px;
+}
 
+#header .zippo_input {
+	display: inline-block;
+	float: right;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+/* Enter button */
+
+.enter_button {
+	float: right;
+	margin-right: 25px;
+	background: url('img/enter_1.png') bottom;
+}
+
+.enter_button:hover {
+	background: url('img/enter_2.png');
+}
+
+.enter_button:active {
+	background: url('img/enter_3.png');
 }
 
 /* body container */
@@ -60,27 +84,60 @@ p{
 /* home */
 
 .main-bg {
-	background: #000 ;
+
 }
 /* overlay */
 
-.black-overlay {
+#overlay-about {
 	position: absolute;
 	width: 100%;
     height: 100%;
     background: black;
     opacity: 0.6;
     z-index: 9000;
-    vertical-align: middle;
     display: none;
 }
 
-.overlay-content {
+#content-about {
 	position: absolute;
 	z-index: 9999;
 	text-align: center;
-	height: 50%;
-	width: 50%;
+	height: 60%;
+	width: 60%;
+	top: 20%;
+	left: 20%;
+	background-color: #000;
+}
+
+#content-about h1{
+	padding: 50px;
+	font-size: 30px;
+}
+
+#overlay-share {
+	position: absolute;
+	width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.6;
+    z-index: 9000;
+    display: none;
+}
+
+#content-share {
+	position: absolute;
+	z-index: 9999;
+	text-align: center;
+	height: 60%;
+	width: 60%;
+	top: 20%;
+	left: 20%;
+	background-color: black;
+}
+
+#content-share h1{
+	padding: 50px;
+	font-size: 30px;
 }
 
 /* footer */
@@ -90,7 +147,7 @@ p{
 	width: 100%;
 	bottom: 0;
 	left: 0;
-	height: 50px;
+	height: 70px;
 	z-index: 800;
 	background-color: black;
 
@@ -101,7 +158,7 @@ p{
 }
 
 #footer_nav {
-	margin-top: 15px;
+	margin-top: 10px;
 	margin-left: 25px;
 	margin-right: 25px;
 }
@@ -111,14 +168,14 @@ p{
 	display: inline-block;
 	float: left;
 	margin-left: 25px;
-	margin-right: 25px;
+	margin-right: 20px;
 }
 
 #footer_nav .zippo_web {
 	font-size: 18px; 
 	display: inline-block;
 	float: left;
-	margin-left: 25px;
+	margin-left: 15px;
 	margin-right: 25px;
 }
 
@@ -130,3 +187,54 @@ p{
 
 }
 
+
+/* About button */
+
+.about_button {
+	width: 100%;
+	background: url('img/about_1.png') bottom;
+}
+
+.about_button:hover {
+	display: block;
+	background: url('img/about_2.png');
+}
+
+.about_button:active {
+	display: block;
+	background: url('img/about_3.png');
+}
+
+/* Zippo button */
+
+.zippo_button {
+	width: 100%;
+	background: url('img/zippo_1.png') bottom;
+}
+
+.zippo_button:hover {
+	display: block;
+	background: url('img/zippo_2.png');
+}
+
+.zippo_button:active {
+	display: block;
+	background: url('img/zippo_3.png');
+}
+
+/* Share button */
+
+.share_button {
+	width: 100%;
+	background: url('img/share_1.png') bottom;
+}
+
+.share_button:hover {
+	display: block;
+	background: url('img/share_2.png');
+}
+
+.share_button:active {
+	display: block;
+	background: url('img/share_3.png');
+}

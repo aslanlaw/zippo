@@ -12,9 +12,9 @@
 		<div id="header_container">
 			<div id="header">
 				<div class="zippo-signin pull-right">
+					<a href="#"><img src="img/enter_1.png" class="enter_button" /></a>
 					<form>
-						<input class="input-small" type="text" required="required" name="zippo_id" placeholder="Zippo ID" />
-						<button class="btn" type="submit">Enter</button>
+						<input class="input-small" type="text" required="required" name="zippo_id" placeholder=" #ZippoID" />
 					</form>
 				</div>
 			</div>
@@ -28,15 +28,15 @@
 				<!-- BACKGROUND IMG -->
 			</div>
 			
-			<div class="black-overlay">
-				<div class="overlay-about">
-					<p>About</p>
+			<div id="overlay-about">
+				<div id="content-about">
+					<h1>About</p>
 				</div>
-				<div class="overlay-share">
-					<p>Share</p>
-
+			</div>
+			<div id="overlay-share">
+				<div id="content-share">
+					<h1>Share</p>
 					<!-- SOCIAL MEDIA BUTTONS -->
-
 				</div>
 			</div>
 		
@@ -48,13 +48,19 @@
 			<div id="footer">
 				<div id="footer_nav">
 					<div class="about">
-						<p>About</p>
+						<a href="#">
+						<img src="img/about_1.png" class="about_button" />
+						</a>
 					</div>
 					<div class="zippo_web">
-						<p>Zippo</p>
+						<a href="#">
+						<img src="img/zippo_1.png" class="zippo_button" />
+						</a>
 					</div>
 					<div class="social_share pull-right">
-						<p>Share</p>
+						<a href="#">
+						<img src="img/share_1.png" class="share_button" />
+						</a>
 					</div>
 				</div>
 			</div>
