@@ -1,0 +1,139 @@
+/* imports */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+/* GLOBAL */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    height: 100%;
+    color: white;
+   	background-color: white;
+   	margin: 0 0 100px;
+   	/* background-image: url ("/img/slide1.png"); */ 
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+p{
+	margin: 0;
+}
+
+/* header */
+
+#header_container {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 50px;
+	z-index: 800;
+	background-color: black;
+
+}
+
+#header {
+	margin: 0 auto;
+}
+
+#header .zippo-signin {
+	margin-top: 15px;
+	margin-right: 20px;
+
+}
+
+/* body container */
+.body_container {
+
+}
+
+/* home */
+
+.main-bg {
+	background: #000 ;
+}
+/* overlay */
+
+.black-overlay {
+	position: absolute;
+	width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.6;
+    z-index: 9000;
+    vertical-align: middle;
+    display: none;
+}
+
+.overlay-content {
+	position: absolute;
+	z-index: 9999;
+	text-align: center;
+	height: 50%;
+	width: 50%;
+}
+
+/* footer */
+
+#footer_container {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	height: 70px;
+	z-index: 800;
+	background-color: black;
+
+}
+
+#footer {
+	margin: 0 auto;
+}
+
+#footer_nav {
+	margin-top: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+#footer_nav .about {
+	font-size: 18px; 
+	display: inline-block;
+	float: left;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+#footer_nav .zippo_web {
+	font-size: 18px; 
+	display: inline-block;
+	float: left;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+#footer_nav .social_share {
+	font-size: 18px; 
+	display: inline-block;
+	margin-left: 25px;
+	margin-right: 25px;
+
+}
+
+/* About button */
+
+.about_button {
+	top: 0;
+	margin: 0;
+}
+
