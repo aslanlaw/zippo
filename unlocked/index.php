@@ -12,10 +12,10 @@
 		<div id="header_container">
 			<div id="header">
 				<div class="zippo-signin pull-right">
+					<a href="#"><img src="img/enter_1.png" class="enter_button" /></a>
 					<form class="zippo_input">
 						<input class="input-small" type="text" required="required" name="zippo_id" placeholder="Zippo ID" />
-					</form>
-					<a href="#"><img src="img/enter_1.png" class="enter_button" /></a>
+					</form>					
 				</div>
 			</div>
 		</div>

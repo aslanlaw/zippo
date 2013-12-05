@@ -48,40 +48,31 @@ p {
 
 #header .zippo-signin {
 	display: inline-block;
-
 	margin-top: 10px;
 	margin-right: 25px;
-	margin-left: 25px;
-	background-color: red;
-
+	width: 250px;
 }
 
 #header .zippo_input {
 	display: inline-block;
 	float: right;
 	margin-top: 15px;
-	margin-left: 25px;
-	margin-right: 50px;
+	margin-right: 10px;
 }
 
 /* Enter button */
 
 .enter_button {
-	width: 50px;
+	float: right;
 	margin-right: 25px;
-	display: block;
 	background: url('img/enter_1.png') bottom;
 }
 
 .enter_button:hover {
-	width: 50px;
-	margin-right: 25px;
 	background: url('img/enter_2.png');
 }
 
 .enter_button:active {
-	width: 50px;
-	margin-right: 25px;
 	background: url('img/enter_3.png');
 }
 
