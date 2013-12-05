@@ -1,6 +1,17 @@
 $( document ).ready(function() {
 	
 
+  swfobject.registerObject("video", "9.0.115", "expressInstall.swf");
+
+  // resize the flash DIV for the window width
+  $("div.vid").css("height", $(window).width());
+
+  // add listener to resize flash on window resize
+  $(window).resize(function() {
+    $("div.vid").css("height", $(window).width());
+  });
+
+
   //FAKE CODE fade in lights
   setTimeout(function(){
       $('#lighting').fadeIn(3000);}, 500);

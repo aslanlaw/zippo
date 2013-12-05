@@ -6,6 +6,10 @@
         <script src="jquery.js"></script>
         <script type="text/javascript" src="js_unlocked.js"></script>
 		<link href="css_unlocked.css" rel="stylesheet" type="text/css" />
+
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<script type="text/javascript" src="swfobject.js"></script>
+
 	</head>
 	<body>
 		<!-- header -->
@@ -32,6 +36,23 @@
 					<img src="img/montage_play.jpg"/>
 				</div>
 			</div>
+
+
+			 <div class="vid">
+
+      			<object id="video" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1800" height="1200">
+        			<param name="movie" value="lights.swf" />
+        			<!--[if !IE]>-->
+       				 <object type="application/x-shockwave-flash" data="lights.swf" width="1800" height="1200" >
+        			<!--<![endif]-->
+          				<p>LOL it is not working</p>
+        			<!--[if !IE]>-->
+        			</object>
+        			<!--<![endif]-->
+      			</object>
+
+   			 </div>
+
 
 			<div id="overlay-about">
 				<div id="content-about">

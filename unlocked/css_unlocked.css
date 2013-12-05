@@ -101,6 +101,11 @@ p {
 	background-size: auto, cover;
 }
 
+.vid {
+	position: absolute;
+	z-index: 10;
+}
+
 /* FAKE CODE */
 #lighting{
 	width: 100%;
