@@ -25,6 +25,7 @@
 		<div class="body_container">
 			
 			<div class="main-bg">
+				<img src="img/background2.jpg" class="bg_image" />
 				<!-- BACKGROUND IMG -->
 			</div>
 			

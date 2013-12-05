@@ -86,6 +86,18 @@ p {
 .main-bg {
 	background: #000 ;
 }
+
+.main-bg .bg_image {
+	width: 100%;
+	height: auto;
+
+	background-repeat: no-repeat;
+	background-position: center 29px;
+	-webkit-background-size: auto, cover;
+	-moz-background-size: auto, cover;
+	-o-background-size: auto, cover;
+	background-size: auto, cover;
+}
 /* overlay */
 
 .black-overlay {
