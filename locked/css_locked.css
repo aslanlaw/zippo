@@ -60,6 +60,14 @@ p{
 	margin-right: 10px;
 }
 
+#counter{
+	display: inline-block;
+	font-size: 20px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 60px;
+}
+
 /* Enter button */
 
 .enter_button {
@@ -79,6 +87,32 @@ p{
 /* body container */
 .body_container {
 
+}
+
+/* loading */
+#loading {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 111111;
+	background-color: black;
+}
+
+#load-counter {
+	position: absolute;
+	z-index: 222222;
+	font-size: 100px;
+	right: 50%;
+	top: 45%;
+}
+
+#lit {
+	position: absolute;
+	z-index: 222222;
+	font-size: 100px;
+	left: 52%;
+	top: 45%;
+	display: none;
 }
 
 /* home */

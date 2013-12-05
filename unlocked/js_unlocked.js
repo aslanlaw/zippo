@@ -1,7 +1,13 @@
 $( document ).ready(function() {
 	
 
+  //FAKE CODE fade in lights
+  setTimeout(function(){
+      $('#lighting').fadeIn(3000);}, 500);
 
+  //fake code fade in montage
+  setTimeout(function(){
+      $('#overlay-montage').fadeIn(2500);}, 4000);
   	
 
   	//showing overlay when clicking about  

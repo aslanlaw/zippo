@@ -11,12 +11,6 @@
 		<!-- header -->
 		<div id="header_container">
 			<div id="header">
-				<div class="zippo-signin pull-right">
-					<a href="#"><img src="img/enter_1.png" class="enter_button" /></a>
-					<form class="zippo_input">
-						<input class="input-small" type="text" required="required" name="zippo_id" placeholder="Zippo ID" />
-					</form>					
-				</div>
 			</div>
 		</div>
 		<!-- end header -->
@@ -29,6 +23,16 @@
 				<!-- BACKGROUND IMG -->
 			</div>
 			
+			<div class="main-bg" id="lighting">
+				<img src="img/background_lit.jpg" class="bg_image" />
+			</div>
+
+			<div id="overlay-montage">
+				<div id="montage-play">
+					<img src="img/montage_play.jpg"/>
+				</div>
+			</div>
+
 			<div id="overlay-about">
 				<div id="content-about">
 					<h1>About</h1>

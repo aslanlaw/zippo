@@ -11,6 +11,9 @@
 		<!-- header -->
 		<div id="header_container">
 			<div id="header">
+				<div id="counter">
+					<p> 34.012% </p>
+				</div>
 				<div class="zippo-signin pull-right">
 					<a href="#"><img src="img/enter_1.png" class="enter_button" /></a>
 					<form class="zippo_input">
@@ -26,7 +29,15 @@
 			
 			<div class="main-bg">
 				<!-- BACKGROUND IMG -->
-				<img src="img/background2.jpg" class="bg_image" />
+				<img src="img/background_dots.jpg" class="bg_image" />
+			</div>
+
+			<div id="loading">
+				<div id="load-counter">
+				</div>
+				<div id="lit">
+					<p>L I T</p>
+				</div>
 			</div>
 			
 			<div id="overlay-about">
