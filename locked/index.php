@@ -25,11 +25,18 @@
 		<div class="body_container">
 			
 			<div class="main-bg">
+				<!-- BACKGROUND IMG -->
 			</div>
 			
 			<div class="black-overlay">
-				<div class="overlay-content">
-					<p>Please check back after the Concert!</p>
+				<div class="overlay-about">
+					<p>About</p>
+				</div>
+				<div class="overlay-share">
+					<p>Share</p>
+
+					<!-- SOCIAL MEDIA BUTTONS -->
+
 				</div>
 			</div>
 		
