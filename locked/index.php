@@ -23,11 +23,16 @@
 
 		<!-- body -->
 		<div class="body_container">
+			
 			<div class="main-bg">
-				<div class="black-overlay">
+			</div>
+			
+			<div class="black-overlay">
+				<div class="overlay-content">
 					<p>Please check back after the Concert!</p>
 				</div>
 			</div>
+		
 		</div>
 		<!-- end body -->
 
