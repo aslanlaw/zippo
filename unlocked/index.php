@@ -37,22 +37,22 @@
 				</div>
 			</div>
 
-
+			<!--
 			 <div class="vid">
 
       			<object id="video" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1800" height="1200">
         			<param name="movie" value="lights.swf" />
-        			<!--[if !IE]>-->
+        			
        				 <object type="application/x-shockwave-flash" data="lights.swf" width="1800" height="1200" >
-        			<!--<![endif]-->
+        			
           				<p>LOL it is not working</p>
-        			<!--[if !IE]>-->
+        			
         			</object>
-        			<!--<![endif]-->
+        			
       			</object>
 
    			 </div>
-
+   			-->
 
 			<div id="overlay-about">
 				<div id="content-about">

@@ -60,12 +60,26 @@ p{
 	margin-right: 10px;
 }
 
+#clickbox{
+	position: absolute;
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	z-index: 555555;
+}
+
 #counter{
 	display: inline-block;
 	font-size: 20px;
 	float: left;
 	margin-top: 25px;
 	margin-left: 60px;
+	text-decoration: none;
+}
+
+#counter a{
+	text-decoration: none;
+	color: white;
 }
 
 /* Enter button */
@@ -133,6 +147,15 @@ p{
 	-moz-background-size: auto, cover;
 	-o-background-size: auto, cover;
 	background-size: auto, cover;
+}
+
+/* FAKE CODE */
+#lighting{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: 5;
+	display: none;
 }
 
 /* overlay */

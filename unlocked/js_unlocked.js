@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 	
-
+  /*
   swfobject.registerObject("video", "9.0.115", "expressInstall.swf");
 
   // resize the flash DIV for the window width
@@ -10,6 +10,7 @@ $( document ).ready(function() {
   $(window).resize(function() {
     $("div.vid").css("height", $(window).width());
   });
+*/
 
 
   //FAKE CODE fade in lights

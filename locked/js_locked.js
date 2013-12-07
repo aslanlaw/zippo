@@ -1,5 +1,9 @@
 $( document ).ready(function() {
 	
+	$("#clickbox").click(function(){
+		$("#clickbox").hide();
+	
+
 	//loading screen counter
 	// Animate the element's value from x to y:
  	$({someValue: 0}).animate({someValue: 34.012}, {
@@ -27,9 +31,15 @@ $( document ).ready(function() {
   	setTimeout(function(){
   		$('#loading').fadeOut(3000);}, 4000);
 
+  	});
+
   	//(FAKE CODE) when clicking on enter button
   	$("div.zippo-signin").click(function(){
-  		$("#counter").replaceWith('<div id="counter"> <p> 34.013% </p> </div>');
+  		$("#counter").replaceWith('<div id="counter"> <a href="../unlocked/"> <p> 34.013% </p> </a> </div>');
+
+		$("#lighting").fadeIn();
+			$("#lighting").fadeOut();
+
   	});
 
 

@@ -32,6 +32,14 @@
 				<img src="img/background_dots.jpg" class="bg_image" />
 			</div>
 
+			<div class="main-bg" id="lighting">
+				<img src="img/lightup.jpg" class="bg_image" />
+			</div>
+
+
+			<div id="clickbox">
+			</div>	
+
 			<div id="loading">
 				<div id="load-counter">
 				</div>
